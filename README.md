@@ -1,1 +1,1 @@
-![plot](./architecture.drawio.png)
+﻿![plot](./architecture.drawio.png)
