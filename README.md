@@ -1,0 +1,1 @@
+![plot](./architecture.drawio.png)

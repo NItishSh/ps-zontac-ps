@@ -1,0 +1,8 @@
+1.install ansible                                             -   done
+2.create a dynamic inventory                                  -   done
+3.copy ansible playbook then run                              -   done 
+4.better ssh key management by may be using Session manager   - 
+5.Create load balance, create target group, map asg instances -   done
+to lb using group, handle port forwwarding from 80 to 8080
+6.create iam user and grant access to only restart web server -   done
+

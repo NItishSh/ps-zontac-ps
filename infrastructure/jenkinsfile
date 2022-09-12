@@ -1,0 +1,31 @@
+pipeline {
+    agent java
+
+    stages {
+        stage ('lint') {
+            steps{
+                sh 'npm lint' 
+                sh "shell check"
+            }
+        }
+        stage('Build') {
+            steps {
+                echo 'Building..'
+                sh 'npm build'
+                sh 'mvn build --'
+
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing..'
+                sh 'test command'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
+    }
+}
